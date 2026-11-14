@@ -15,7 +15,7 @@ pip install psycopg2-binary
 
 ## Run
 cmd
-python a3_CRUD_ops.py
+python src/a3_CRUD_ops.py
 
 ## Functions
 
