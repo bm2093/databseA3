@@ -94,7 +94,6 @@ def deleteStudent(student_id):
     finally:
         conn.close()
 
-
 if __name__ == "__main__":
     # view initial 
     getAllStudents()
