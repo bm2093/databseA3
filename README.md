@@ -17,6 +17,8 @@ pip install psycopg2-binary
 cmd
 python src/a3_CRUD_ops.py
 
+Note: If re-running the script, reset the table (`TRUNCATE TABLE students RESTART IDENTITY;` followed by the initial `INSERT` statements) to avoid duplicate `email` errors and missing-ID deletes
+
 ## Functions
 
 - getAllStudents() - Retrieves and prints all student records, done initially and for final
