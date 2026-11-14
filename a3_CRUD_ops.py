@@ -100,7 +100,7 @@ if __name__ == "__main__":
     getAllStudents()
 
     # new student
-    #addStudent("Shai", "Gillgeous", "SG.Alexander@example.com", "2023-09-03")
+    addStudent("Shai", "Gillgeous", "SG.Alexander@example.com", "2023-09-03")
 
     # update student email 
     updateStudentEmail(1, "john.doe.new@example.com")
